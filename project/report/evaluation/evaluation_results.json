@@ -1,0 +1,212 @@
+[
+  {
+    "sample": "01_simple",
+    "threshold": {
+      "iou": 0.9998222222222222,
+      "accuracy": 0.9999555555555556,
+      "precision": 1.0,
+      "recall": 0.9998222222222222,
+      "f1": 0.9999111032091741
+    },
+    "grabcut": {
+      "iou": 0.9998222222222222,
+      "accuracy": 0.9999555555555556,
+      "precision": 1.0,
+      "recall": 0.9998222222222222,
+      "f1": 0.9999111032091741
+    },
+    "improvement": {
+      "iou_delta": 0.0,
+      "accuracy_delta": 0.0
+    }
+  },
+  {
+    "sample": "02_cluttered",
+    "threshold": {
+      "iou": 0.7655646856487675,
+      "accuracy": 0.9318444444444445,
+      "precision": 0.7670304422745549,
+      "recall": 0.9975100841591554,
+      "f1": 0.8672179409472682
+    },
+    "grabcut": {
+      "iou": 0.9942073472621051,
+      "accuracy": 0.9987,
+      "precision": 0.9942073472621051,
+      "recall": 1.0,
+      "f1": 0.9970952605576107
+    },
+    "improvement": {
+      "iou_delta": 0.22864266161333768,
+      "accuracy_delta": 0.06685555555555556
+    }
+  },
+  {
+    "sample": "03_low_contrast",
+    "threshold": {
+      "iou": 0.9998222222222222,
+      "accuracy": 0.9999555555555556,
+      "precision": 1.0,
+      "recall": 0.9998222222222222,
+      "f1": 0.9999111032091741
+    },
+    "grabcut": {
+      "iou": 0.9998222222222222,
+      "accuracy": 0.9999555555555556,
+      "precision": 1.0,
+      "recall": 0.9998222222222222,
+      "f1": 0.9999111032091741
+    },
+    "improvement": {
+      "iou_delta": 0.0,
+      "accuracy_delta": 0.0
+    }
+  },
+  {
+    "sample": "04_person_like",
+    "threshold": {
+      "iou": 0.9996796530395998,
+      "accuracy": 0.9998916666666666,
+      "precision": 0.9997535610429297,
+      "recall": 0.9999260555569249,
+      "f1": 0.9998398008601461
+    },
+    "grabcut": {
+      "iou": 0.9990150451848021,
+      "accuracy": 0.9996666666666667,
+      "precision": 0.9990150451848021,
+      "recall": 1.0,
+      "f1": 0.9995072799389026
+    },
+    "improvement": {
+      "iou_delta": -0.0006646078547977163,
+      "accuracy_delta": -0.0002249999999999197
+    }
+  },
+  {
+    "sample": "05_small_object",
+    "threshold": {
+      "iou": 0.9873817034700315,
+      "accuracy": 0.9999555555555556,
+      "precision": 1.0,
+      "recall": 0.9873817034700315,
+      "f1": 0.9936507936507936
+    },
+    "grabcut": {
+      "iou": 1.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "improvement": {
+      "iou_delta": 0.012618296529968487,
+      "accuracy_delta": 4.444444444440254e-05
+    }
+  },
+  {
+    "sample": "06_translucent",
+    "threshold": {
+      "iou": 0.9998008067327324,
+      "accuracy": 0.9999555555555556,
+      "precision": 1.0,
+      "recall": 0.9998008067327324,
+      "f1": 0.9999003934458888
+    },
+    "grabcut": {
+      "iou": 1.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "improvement": {
+      "iou_delta": 0.00019919326726758335,
+      "accuracy_delta": 4.444444444440254e-05
+    }
+  },
+  {
+    "sample": "07_multiple_objects",
+    "threshold": {
+      "iou": 0.5002101723413199,
+      "accuracy": 0.910825,
+      "precision": 0.9946136701337296,
+      "recall": 0.5015688662014706,
+      "f1": 0.6668534603530402
+    },
+    "grabcut": {
+      "iou": 0.2714841005947642,
+      "accuracy": 0.8703666666666666,
+      "precision": 1.0,
+      "recall": 0.2714841005947642,
+      "f1": 0.4270349907918969
+    },
+    "improvement": {
+      "iou_delta": -0.22872607174655574,
+      "accuracy_delta": -0.040458333333333374
+    }
+  },
+  {
+    "sample": "08_touching_border",
+    "threshold": {
+      "iou": 0.9999728997289973,
+      "accuracy": 0.9999888888888889,
+      "precision": 1.0,
+      "recall": 0.9999728997289973,
+      "f1": 0.99998644968089
+    },
+    "grabcut": {
+      "iou": 0.6097289972899729,
+      "accuracy": 0.8399888888888889,
+      "precision": 1.0,
+      "recall": 0.6097289972899729,
+      "f1": 0.757554840990589
+    },
+    "improvement": {
+      "iou_delta": -0.3902439024390244,
+      "accuracy_delta": -0.16000000000000003
+    }
+  },
+  {
+    "sample": "09_thin_object",
+    "threshold": {
+      "iou": 0.7866887143447706,
+      "accuracy": 0.9942666666666666,
+      "precision": 0.7866887143447706,
+      "recall": 1.0,
+      "f1": 0.8806108283202221
+    },
+    "grabcut": {
+      "iou": 0.9906298802706923,
+      "accuracy": 0.9998,
+      "precision": 0.9906298802706923,
+      "recall": 1.0,
+      "f1": 0.9952928870292886
+    },
+    "improvement": {
+      "iou_delta": 0.2039411659259217,
+      "accuracy_delta": 0.00553333333333339
+    }
+  },
+  {
+    "sample": "10_gradient_bg",
+    "threshold": {
+      "iou": 0.2761758598898619,
+      "accuracy": 0.5545666666666667,
+      "precision": 0.27656035293266795,
+      "recall": 0.9949912183698693,
+      "f1": 0.4328178718467481
+    },
+    "grabcut": {
+      "iou": 0.2776463363976232,
+      "accuracy": 0.5556,
+      "precision": 0.2776463363976232,
+      "recall": 1.0,
+      "f1": 0.43462158265245543
+    },
+    "improvement": {
+      "iou_delta": 0.0014704765077613313,
+      "accuracy_delta": 0.0010333333333333306
+    }
+  }
+]
